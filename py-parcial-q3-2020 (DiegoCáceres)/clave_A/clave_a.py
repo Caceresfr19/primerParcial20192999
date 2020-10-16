@@ -39,22 +39,19 @@ area total: area lateral + area circulo
 
 
 # start-->
-a = 7
-r = 5
-
-
-def areaTotalCilindro(arealateral, areaCirculo):
-    result = arealateral + areaCirculo
-    return result
+def areaTotalCilindro(radio, altura):
+    result1 = areaLateral(radio, altura)
+    result2 = areaCirculo(radio, altura)
+    result = result1 + result2
 
 
 def areaLateral(r, a):
-    result = 2 * math.pi * r * a
+    result = 2 * (math.pi) * r * a
     return result
 
 
 def areaCirculo(r, a):
-    result = 2 * math.pi * (r * r)
+    result = 2 * (math.pi) * (r * r)
     return result
 
 
