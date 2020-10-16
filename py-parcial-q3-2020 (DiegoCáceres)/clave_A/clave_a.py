@@ -72,6 +72,7 @@ class Cilindro:
 
     def areaTotalCilindro(self):
         result = self.areaLateral + self.areaCirculo
+        return round(result, 2)
 
 
 """
