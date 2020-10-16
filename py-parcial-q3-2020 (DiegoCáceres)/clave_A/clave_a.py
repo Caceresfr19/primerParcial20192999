@@ -90,7 +90,7 @@ pizza
 
 
 class Restaurante:
-    def ordenar(self, nombre, lugar, costo, conDescuento, descuento):
+    def ordenar(self):
         pass
 
     def costoTotal(self):
@@ -116,4 +116,4 @@ github_<nombre>_<codigo>.txt y subirlo a moodle
 
 # github url-->
 def getGithubUrl():
-    return ""
+    return "https://github.com/Caceresfr19/primerParcial20192999.git"
