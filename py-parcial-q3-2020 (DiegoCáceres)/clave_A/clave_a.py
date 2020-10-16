@@ -43,6 +43,7 @@ def areaTotalCilindro(radio, altura):
     result1 = areaLateral(radio, altura)
     result2 = areaCirculo(radio, altura)
     result = result1 + result2
+    return round(result, 2)
 
 
 def areaLateral(r, a):
